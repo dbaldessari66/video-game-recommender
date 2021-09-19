@@ -22,7 +22,7 @@ Games = pd.read_csv('~/Downloads/steam_games 2.csv')
 ```
 
 ### Background
-The dataset features 20 columns, many that will not be of use to this type of recommendation system. As well, there are 40,833 unique video games with unique characteristics. The recommendation system is designed to suit the needs of novice gamers. Therefore, we will be excluding free games and focusing on Triple-A titles. Triple-A games are video games produced or developed by a major publisher, which allocated a large budget for both development and marketing. Many novice gamers will be familiar with Triple-A games rather than small indie games. Most Triple-A titles retail price is \\$59.99, however, some games release months or years after their console release to the steam platform for a discount. Therefore we will limit our dataset to only titles with a price range of \\$19.99 to \\$59.99.
+The dataset features 20 columns, many that will not be of use to this type of recommendation system. As well, there are 40,833 unique video games with unique characteristics. The recommendation system is designed to suit the needs of novice gamers. Therefore, we will be excluding free games and focusing on Triple-A titles. Triple-A games are video games produced or developed by a major publisher, which allocated a large budget for both development and marketing. Many novice gamers will be familiar with Triple-A games rather than small indie games. Most Triple-A titles retail price is $59.99, however, some games release months or years after their console release to the steam platform for a discount. Therefore we will limit our dataset to only titles with a price range of $19.99 to $59.99.
 
 
 ```python
@@ -148,7 +148,7 @@ Games.head(3)
 
 
 
-### Step One: Filtering the price between \\$19.99 and \\$59.99
+### Step One: Filtering the price between $19.99 and $59.99
 The original price column will be the column we intend to filter. We have a problem to sort out before we proceed with our filtering. We cannot sort the original price column because it is not considered a numerical type. We can fix this by first converting the column to a character type, then remove the dollar sign through character string slicing. After we remove the dollar sign, we can convert the column to a numerical type. Now we can proceed with applying the filter. The total number of unique games in the dataset is now 4,338.
 
 
