@@ -22,7 +22,7 @@ Games = pd.read_csv('~/Downloads/steam_games 2.csv')
 ```
 
 ### Background
-The dataset features 20 columns, many that will not be of use to this type of recommendation system. As well, there are 40,833 unique video games with unique characteristics. The recommendation system is designed to suit the needs of novice gamers. Therefore, we will be excluding free games and focusing on Triple-A titles. Triple-A games are video games produced or developed by a major publisher, which allocated a large budget for both development and marketing. Many novice gamers will be familiar with Triple-A games rather than small indie games. Most Triple-A titles retail price is \\$59.99, however, some games release months or years after their console release to the steam platform for a discount. Therefore we will limit our dataset to only titles with a price range of \\$19.99 to \\$59.99.
+The dataset features 20 columns, many that will not be of use to this type of recommendation system. As well, there are 40,833 unique video games with unique characteristics. The recommendation system is designed to suit the needs of novice gamers. Therefore, we will be excluding free games and focusing on Triple-A titles. Triple-A games are video games produced or developed by a major publisher, which allocated a large budget for both development and marketing. Many novice gamers will be familiar with Triple-A games rather than small indie games. Most Triple-A titles retail price is $59.99, however, some games release months or years after their console release to the steam platform for a discount. Therefore we will limit our dataset to only titles with a price range of $19.99 to $59.99.
 
 
 ```python
@@ -199,20 +199,7 @@ Games.head(3)
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -331,20 +318,7 @@ Games.head(3)
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -543,20 +517,7 @@ Games.loc[['DOOM Eternal','Doom 3: BFG Edition','DOOM','Dead Space™ 2','DUSK',
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
