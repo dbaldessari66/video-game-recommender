@@ -140,7 +140,7 @@ The original price column will be the column we intend to filter. We have a prob
 ```python
 Games.original_price
 ```
-'Output'
+```
 
 
 
@@ -156,7 +156,7 @@ Games.original_price
     40831     $9.99
     40832     $4.99
     Name: original_price, Length: 40833, dtype: object
-
+```
 
 
 
