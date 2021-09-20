@@ -140,7 +140,7 @@ The original price column will be the column we intend to filter. We have a prob
 ```python
 Games.original_price
 ```
-
+'Output'
 
 
 
